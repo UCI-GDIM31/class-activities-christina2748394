@@ -48,12 +48,12 @@ public class CatW5 : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             translation += Vector3.forward;
-            Debug.Log("W key pressed");
+            
         }
         if (Input.GetKey(KeyCode.S))
         {
             translation += Vector3.back;
-            Debug.Log("W key pressed");
+            
         }
 
         if (_flipWSControls)
