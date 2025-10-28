@@ -27,6 +27,12 @@ Q1: What to put in the GetComponent<???> when we want to access a variable insid
 Answer: The component name. E.g gameObject.GetComponent<scriptname>.variable
 Q2: How to call transform? For example you want to move the player inside the player script, do you need to reference the player object?
 Answer: No, just start with transform.
+What member variable(s) does this class need?
+It will need a NavMesh variable and a Transform variable to store the target position.
+What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?
+It will need a start() method.
+What should the method(s) do?
+To set create a Navmaesh and setDerection to the target.
 
 
 
