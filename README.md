@@ -21,7 +21,13 @@ Line25 moves the transform on the z-axis by the amount of translation.
 
 We added Rigidbodies to the cat and the ball, and we marked the goal with Is Trigger.
 I had to link the Rigidbodies to the BounceOfWall Component to make it reacted correctlly when reaching the walls
- 
+
+ ### W5
+Q1: What to put in the GetComponent<???> when we want to access a variable inside a script?
+Answer: The component name. E.g gameObject.GetComponent<scriptname>.variable
+Q2: How to call transform? For example you want to move the player inside the player script, do you need to reference the player object?
+Answer: No, just start with transform.
+
 
 
 ## Open-Source Assets
