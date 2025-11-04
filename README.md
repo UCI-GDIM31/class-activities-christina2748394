@@ -34,6 +34,10 @@ It will need a start() method.
 What should the method(s) do?
 To set create a Navmaesh and setDerection to the target.
 
+### W6
+Activity 1 : [Math] https://docs.google.com/document/d/1IZFJUcFgjnf2ph_xvqjTaqAltUuFe4KMaDIYs-4cPV8/edit?usp=sharing
+Activity 2 : The Bat will have a float speed [serilizedfiled] member variable and a Vector3 target position variable for the target player. It will need Start(), Upadate(), OnTriggerEntered(), StartChase(), and StopChase(). Start() will get the start position of player, Update() will get the current position of player and move towards the player. OnTriggerEntered() will detect if hit the player.
+
 
 
 ## Open-Source Assets
