@@ -1457,6 +1457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   speed: 5
   _player: {fileID: 137124476}
+  _playerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &524616927
 GameObject:
   m_ObjectHideFlags: 0
@@ -6001,6 +6002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   speed: 5
   _player: {fileID: 137124476}
+  _playerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &925081785
 GameObject:
   m_ObjectHideFlags: 0
@@ -6035,7 +6037,22 @@ MonoBehaviour:
   _timeBetweenNewMessages: 0.5
   _playerTransform: {fileID: 137124478}
   _reactionUiPrefab: {fileID: 1213822324474933021, guid: 57c2a2a51066041a1985ab96803a3aa7, type: 3}
-  _bats: []
+  _bats:
+  - {fileID: 1639799785}
+  - {fileID: 1492021330}
+  - {fileID: 429572122}
+  - {fileID: 880500753}
+  - {fileID: 1267810460}
+  - {fileID: 1388478209}
+  - {fileID: 1973095154}
+  - {fileID: 1077408847}
+  - {fileID: 2130503367}
+  - {fileID: 1583297592}
+  _messages:
+  - weeeee
+  - rarr
+  - meow
+  - aaaah
   _newTextTimers: []
 --- !u!4 &925081787
 Transform:
@@ -6191,6 +6208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   speed: 5
   _player: {fileID: 137124476}
+  _playerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1191025099
 GameObject:
   m_ObjectHideFlags: 0
@@ -7461,6 +7479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   speed: 5
   _player: {fileID: 137124476}
+  _playerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1297971674
 GameObject:
   m_ObjectHideFlags: 0
@@ -7843,6 +7862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   speed: 5
   _player: {fileID: 137124476}
+  _playerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1465828718
 GameObject:
   m_ObjectHideFlags: 0
@@ -8134,6 +8154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   speed: 5
   _player: {fileID: 137124476}
+  _playerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1553064438
 GameObject:
   m_ObjectHideFlags: 0
@@ -8323,6 +8344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   speed: 5
   _player: {fileID: 137124476}
+  _playerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1588197157
 GameObject:
   m_ObjectHideFlags: 0
@@ -8455,7 +8477,6 @@ GameObject:
   - component: {fileID: 1639799782}
   - component: {fileID: 1639799781}
   - component: {fileID: 1639799785}
-  - component: {fileID: 1639799784}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -8559,20 +8580,6 @@ Transform:
   - {fileID: 2028154125}
   m_Father: {fileID: 925081787}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1639799784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1639799780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f6b1ad80dd1448e78de456c451cad82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BatW6
-  speed: 5
-  _player: {fileID: 0}
 --- !u!114 &1639799785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8587,6 +8594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   speed: 5
   _player: {fileID: 137124476}
+  _playerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1640385369
 GameObject:
   m_ObjectHideFlags: 0
@@ -9040,6 +9048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   speed: 5
   _player: {fileID: 137124476}
+  _playerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1975271561
 GameObject:
   m_ObjectHideFlags: 0
@@ -9331,6 +9340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BatW6
   speed: 5
   _player: {fileID: 137124476}
+  _playerPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &2144879476
 GameObject:
   m_ObjectHideFlags: 0
