@@ -12,6 +12,8 @@ public class BatManager : MonoBehaviour
     // STEP 1 -----------------------------------------------------------------
     // Add a member variable named "_bats" that's an array of BatW6 Components.
     // In the Inspector, add ALL of the bats in the Scene.
+
+    [SerializeField] private BatW6[] _bats;
     
     // STEP 1 -----------------------------------------------------------------
 
@@ -48,7 +50,7 @@ public class BatManager : MonoBehaviour
         // STEP 7 -------------------------------------------------------------
         // Loop through all of the entries in _newTextTimers, and increase each
         //      timer's value by the amount of time that passed this frame.
-        
+
 
         // STEP 7 -------------------------------------------------------------
 
@@ -63,16 +65,20 @@ public class BatManager : MonoBehaviour
         // You will need to check the Vector3 documentation to find a method
         //      to help you with that distance check :)
         // https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html
-        //
-        // STEP 4
-        // Also inside this for loop, if the distance between the bat and the
-        //      player is less than _overlapDistance, call CreateReactions()
-        //      and pass the bat in as an argument.
-        
+        for (int i = 0; i < _bats.Length; i++)
+        {
+            BatW6 bat = _bats[i];
+
+            // STEP 4
+            // Also inside this for loop, if the distance between the bat and the
+            //      player is less than _overlapDistance, call CreateReactions()
+            //      and pass the bat in as an argument.
 
 
-        // STEP 2 -------------------------------------------------------------
 
+            // STEP 2 -------------------------------------------------------------
+
+        }
     }
 
     // ------------------------------------------------------------------------
