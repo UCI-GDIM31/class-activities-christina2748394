@@ -39,6 +39,10 @@ Activity 1 : [Math] https://docs.google.com/document/d/1IZFJUcFgjnf2ph_xvqjTaqAl
 Activity 2 : The Bat will have a float speed [serilizedfiled] member variable and a Vector3 target position variable for the target player. It will need Start(), Upadate(), OnTriggerEntered(), StartChase(), and StopChase(). Start() will get the start position of player, Update() will get the current position of player and move towards the player. OnTriggerEntered() will detect if hit the player.
 
 
+### W7
+Activity 1 : [UI] https://docs.google.com/document/d/1ACCBYMqYrHTf6bSU9TNPsHK5OQnuA3CH1FFEp9_a9kQ/edit?usp=sharing
+Activity 2 : We are using Vector3.forward instead of transform.forward which is global instead of local.
+
 
 ## Open-Source Assets
 ### W1
