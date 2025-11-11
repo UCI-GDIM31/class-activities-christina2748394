@@ -44,8 +44,14 @@ public class MuskratW7 : MonoBehaviour
         // Transform.RotateAround () https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Transform.RotateAround.html
         //
         // You might want to look below Step 3 for an example :D
-        
+
         float leftright = Input.GetAxis("Horizontal");
+        Vector3 up=transform.TransformDirection(Vector3.up);
+        transform.RotateAround(
+            _sphereTransform.position,
+            up,
+            leftright * _rotationSpeed * Time.deltaTime
+        );
         
 
 
@@ -58,6 +64,7 @@ public class MuskratW7 : MonoBehaviour
             axis,
             forward * _rotationSpeed * Time.deltaTime
         );
+
 
 
         // STEP 5 -------------------------------------------------------------
@@ -86,8 +93,9 @@ public class MuskratW7 : MonoBehaviour
         //      like up, left, right, or forward.
 
         float leftright = Input.GetAxis("Horizontal");
+        transform.Rotate(0, leftright*_rotationSpeed*Time.deltaTime, 0);
 
-        // STEP 1 -------------------------------------------------------------
+        // STEP 1 ----------------y---------------------------------------------
 
 
         // STEP 2 -------------------------------------------------------------
@@ -96,7 +104,9 @@ public class MuskratW7 : MonoBehaviour
         // This line of code is incorrect. 
         // Replace it with a different line of code that uses 'movement' to
         //      move the Muskrat forwards and backwards.
-        transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime;
+
+        transform.position += movement * transform.forward * _moveSpeed * Time.deltaTime;
+       
 
         // STEP 2 -------------------------------------------------------------
 
